@@ -3,19 +3,19 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: "Accueil",
     path: "/",
     newTab: false,
   },
   {
     id: 2,
-    title: "About",
+    title: "Qui sommes-nous ?",
     path: "/about",
     newTab: false,
   },
   {
     id: 3,
-    title: "Pricing",
+    title: "Nos services",
     path: "/pricing",
     newTab: false,
   },
@@ -27,13 +27,13 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "Blog",
+    title: "Innovation",
     path: "/blogs",
     newTab: false,
   },
   {
     id: 6,
-    title: "Pages",
+    title: "Actualités ",
     newTab: false,
     submenu: [
       {
@@ -50,7 +50,7 @@ const menuData: Menu[] = [
       },
       {
         id: 63,
-        title: "Contact Page",
+        title: "Contact",
         path: "/contact",
         newTab: false,
       },
@@ -60,18 +60,18 @@ const menuData: Menu[] = [
         path: "/blogs",
         newTab: false,
       },
-      {
-        id: 66,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 67,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
+      // {
+      //   id: 66,
+      //   title: "Sign Up Page",
+      //   path: "/signup",
+      //   newTab: false,
+      // },
+      // {
+      //   id: 67,
+      //   title: "Sign In Page",
+      //   path: "/signin",
+      //   newTab: false,
+      // },
       {
         id: 68,
         title: "Error Page",
