@@ -8,10 +8,10 @@ const Features = () => {
       <div className="container">
         <SectionTitle
           subtitle="Features"
-          title="Main Features Of Play"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-        />
-
+          title="Développez votre < digitalité >"
+          paragraph="L’expertise locale, au service de l’innovation mondiale.
+                    Basés à Douala au Cameroun, nous comprenons vos défis et savons comment les 
+                    relever grâce à des outils technologiques de pointe." />
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">
           {featuresData.map((feature, i) => (
             <SingleFeature key={i} feature={feature} />

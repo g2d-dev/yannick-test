@@ -17,8 +17,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Site vitrine et E-Commerce",
+    paragraph: "Transformez votre présence en ligne en un levier de croissance !Nous créons des sites vitrines captivants pour valoriser votre marque et des plateformes e-commerce performantes pour booster vos ventes. Grâce à des designs modernes et des fonctionnalités adaptées à vos besoins, nous vous aidons à atteindre vos clients, où qu’ils soient, 24/7.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -38,8 +38,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Application personnalisé",
+    paragraph: "Créez des solutions numériques sur mesure qui transforment vos idées en applications performantes et intuitives. Nous concevons, développons et déployons des outils personnalisés pour optimiser vos processus et propulser votre entreprise vers l'innovation au Cameroun et au-delà.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -91,8 +91,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Web Factory TMA",
+    paragraph: "Confiez la maintenance et l’évolution de vos applications web à nos experts TMA (Tierce Maintenance Applicative). Avec notre service Web Factory TMA, nous assurons la performance, la sécurité et l’optimisation continue de vos plateformes numériques pour soutenir durablement vos activités.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -124,8 +124,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Ingénierie d’infrastructure",
+    paragraph: "Transformez vos opérations avec nos solutions d’ingénierie d’infrastructure cloud et serveur. Nous concevons, déployons et gérons des environnements robustes, sécurisés et évolutifs, adaptés aux besoins spécifiques de votre entreprise.",
     btn: "Learn More",
     btnLink: "/#",
   },
