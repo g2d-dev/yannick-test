@@ -2,6 +2,7 @@ import About from "@/components/About";
 import HomeBlogSection from "@/components/Blog/HomeBlogSection";
 import CallToAction from "@/components/CallToAction";
 import Clients from "@/components/Clients";
+import Actualite1 from "@/components/actualites/Actualite1";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
@@ -35,6 +36,7 @@ export default function Home() {
       <HomeBlogSection posts={posts} />
       <Contact />
       <Clients />
+      <Actualite1 />
     </main>
   );
 }
