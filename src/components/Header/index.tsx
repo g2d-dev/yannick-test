@@ -64,7 +64,7 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logo/g2d.png`}
+                      src={`/images/logo/g2d white.png`}
                       alt="logo"
                       width={240}
                       height={30}
@@ -92,7 +92,7 @@ const Header = () => {
                       className="header-logo w-full dark:hidden"
                     />
                     <Image
-                      src={"/images/logo/logo-white.svg"}
+                      src={"/images/logo/g2d.png"}
                       alt="logo"
                       width={140}
                       height={30}
