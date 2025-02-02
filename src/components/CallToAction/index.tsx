@@ -8,16 +8,16 @@ const CallToAction = () => {
           <div className="-mx-4 flex flex-wrap items-stretch">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[570px] text-center">
-                <h2 className="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]">
-                  <span>What Are You Looking For?</span>
-                  <span className="text-3xl font-normal md:text-[40px]">
+                <h2 className="mb-3.5 text-3xl font-bold text-white md:text-[30px] md:leading-[1.44]">
+                  <span>Découvrez nos Services Numériques<br></br></span>
+                  <span className="text-3xl font-normal md:text-[34px]">
                     {" "}
-                    Get Started Now{" "}
+                    Choisissez votre formule et démarrez dès aujourd’hui !{" "}
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  There are many variations of passages of Lorem Ipsum but the
-                  majority have suffered in some form.
+                  Nous offrons des solutions flexibles et sur mesure pour votre transformation digitale :
+                  sites vitrines, e-commerce, applications ou maintenance.
                 </p>
                 <Link
                   href="/"

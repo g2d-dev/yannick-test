@@ -36,21 +36,23 @@ const PricingBox = ({ product }: { product: Price }) => {
           {product.nickname}
         </span>
         <h2 className="mb-11 text-4xl font-semibold text-dark dark:text-white xl:text-[42px] xl:leading-[1.21]">
-          <span className="text-xl font-medium">$ </span>
+        <span className="text-xl font-medium">A partir de  </span>
+        <br></br>
+
           <span className="-ml-1 -tracking-[2px]">
-            {(product.unit_amount / 100).toLocaleString("en-US", {
+            {(product.unit_amount / 100).toLocaleString("fr-FR", {
               currency: "USD",
             })}
           </span>
           <span className="text-base font-normal text-body-color dark:text-dark-6">
             {" "}
-            Per Month
+            {product.nickname === "Gestion du SIRH "?"per Month":"francs cfa "}{product.nickname === "Opérations"? "(hébergement un an inclus)":""}
           </span>
         </h2>
 
         <div className="mb-[50px]">
           <h3 className="mb-5 text-lg font-medium text-dark dark:text-white">
-            Features
+            Package de services
           </h3>
           <div className="mb-10">
             {product?.offers.map((offer, i) => (

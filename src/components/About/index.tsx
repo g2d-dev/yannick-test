@@ -12,24 +12,26 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Brilliant Toolkit to Build Next.js SaaS Websites.
+                Accompagner les entreprises avec des solutions numériques innovantes pour relever les défis de demain.
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel discussions and roundtables led by subject
-                  matter experts.
+                  Grâce à notre expertise dans la création de sites vitrines,
+                  de plateformes e-commerce et d'applications personnalisées, 
+                  nous permettons aux entreprises de se démarquer sur un marché de plus en plus compétitif.
+                  Nous concevons des solutions sur mesure pour renforcer leur présence en ligne et
+                  répondre à leurs besoins spécifiques.
                   <br /> <br />
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel.
+                  Nous offrons des solutions complètes pour la gestion des infrastructures cloud et serveurs,
+                  garantissant performance et sécurité. Avec notre Web Factory TMA,
+                  nous optimisons vos applications et services existants pour une évolution continue, 
+                  tout en réduisant les coûts et les délais de maintenance.
                 </p>
 
                 <a
                   href="/#"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
                 >
-                  Know More
+                  Détails
                 </a>
               </div>
             </div>
@@ -41,7 +43,7 @@ const About = () => {
                     className={`relative mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px] `}
                   >
                     <Image
-                      src="/images/about/about-image-01.jpg"
+                      src="/images/about/Accueil2.jpg"
                       alt="about image"
                       fill
                       className="h-full w-full object-cover object-center"
@@ -52,7 +54,7 @@ const About = () => {
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div className="relative mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
                     <Image
-                      src="/images/about/about-image-02.jpg"
+                      src="/images/about/accueil1.jpg"
                       alt="about image"
                       fill
                       className="h-full w-full object-cover object-center"
